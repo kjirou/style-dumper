@@ -2,8 +2,9 @@
   "name": "style-dumper",
   "version": "0.0.0",
   "description": "Dump computed styles by specifying an element",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "$(npm bin)/tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

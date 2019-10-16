@@ -3,6 +3,7 @@
     /* Basic Options */
     "declaration": true,
     "lib": [
+      "dom",
       "es2018"
     ],
     "module": "commonjs",
@@ -19,6 +20,6 @@
     "noImplicitReturns": true
   },
   "include": [
-    "../src"
+    "./src"
   ]
 }
