@@ -7,7 +7,7 @@
     "build": "$(npm bin)/tsc",
     "develop": "$(npm bin)/http-server development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "$(npm bin)/tsc --watch --outDir development/dist --declaration false"
+    "watch": "$(npm bin)/webpack --config webpack/watch-for-development.config.js"
   },
   "repository": {
     "type": "git",
